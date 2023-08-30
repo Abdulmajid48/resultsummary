@@ -1,0 +1,277 @@
+
+  /* link */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+/*  Challenge */
+
+@media (max-width: 1440px) {
+     .motherdiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .blue-square {
+        flex-basis: 250px;
+        height: 300px;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        border-radius: 30px;
+        color: hsl(0, 0%, 100%);
+        z-index: 1;
+
+
+    }
+
+    .white-square {
+        background-color: hsl(0, 0%, 100%);
+        flex-basis: 250px;
+        height: 300px;
+        border-radius: 30px;
+        position: relative;
+        left: -10px;
+        box-shadow: 10px 10px 5px hsl(221, 100%, 96%);
+
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 440px)  {
+
+    .youscore {
+            font-size: 0.62rem !important;
+          
+        }
+    
+}
+
+@media (max-width: 375px ) {
+    .motherdiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+        }
+    
+        .blue-square {
+            width: 250px;
+            height: 350px;
+            background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+            border-radius: 30px;
+            color: hsl(0, 0%, 100%);
+            flex-shrink: 1;
+            z-index: 1;
+         
+    
+    
+        }
+    
+        .white-square {
+            background-color: hsl(0, 0%, 100%);
+            width: 250px;
+            height: 350px;
+            border-radius: 30px;
+            position: relative;
+            top: -15px;
+            box-shadow: 10px 10px 5px hsl(221, 100%, 96%);
+            flex-shrink: 1;
+           
+    
+        }
+
+        .btn{
+            margin-bottom: 20px;
+        }
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+}
+     
+    body {
+            font-family: 'Hanken Grotesk', sans-serif;
+        }
+    
+       
+    
+        .circle {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+            margin: auto;
+    
+        }
+
+        .digit76 {
+            color: white;
+            font-size: 40px;
+            align-self: center;
+            text-align: center;
+            position: relative;
+            left: 18px;
+            bottom: 15px;
+            font-weight: 800;
+        }
+    
+        .digit100 {
+            align-self: flex-end;
+            position: relative;
+            right: 23px;
+            color: hsla(221, 100%, 96%, 0.6);
+            font-size: 12px;
+            bottom: 30px;
+            font-weight: lighter;
+    
+        }
+    
+        .result {
+            text-align: center;
+            font-weight: 500;
+            color: hsla(221, 100%, 96%, 0.6);
+    
+        }
+    
+        .great {
+            text-align: center;
+            font-weight: 800;
+            font-size: 20px;
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+    
+        .youscore {
+    
+            text-align: center;
+            position: relative;
+            font-size: 13px;
+            padding: 8px 35px 10px;
+            color: hsla(221, 100%, 96%, 0.6);
+        }
+
+      
+    
+        /* White Div Contents */
+        .summary {
+            text-align: left;
+            margin: 20px 30px;
+            padding: 0;
+            font-weight: 600;
+            color: hsl(224, 30%, 27%);
+        }
+    
+        .score {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5px 20px 15px 30px;
+            border-radius: 10px;
+            padding: 0;
+            height: 30px;
+        }
+    
+    
+        .scoreparagraph {
+            display: inline-block;
+            text-align: center;
+            padding: 10px;
+            font-weight: 100;
+            font-size: 12px;
+            flex-shrink: 0;
+    
+        }
+    
+    
+        i {
+            padding: 5px;
+        }
+    
+        .fraction1 {
+            color: hsl(224, 30%, 27%);
+            font-weight: 550;
+        }
+    
+        .fraction2 {
+            color: hsl(224, 30%, 27%, 0.6);
+        }
+    
+    
+    
+    
+        .btndiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            margin: auto;
+            z-index: 1;
+
+    
+        }
+
+    
+         .btn{
+            border-radius: 50px; 
+            background-color: hsla(256, 72%, 46%);
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            width: 80%;
+            height: 35px;
+            margin-top: 10px;
+            flex-shrink: 1;
+        } 
+
+        .btn:hover{
+            background-color: hsl(224, 30%, 27%);
+        }
+
+        .btn:focus{
+            background-color: hsla(241, 72%, 46%, 0.7);
+        }
+
+        .lightred {
+            color: hsl(0, 100%, 67%);
+            background-color: hsla(0, 100%, 67%, 0.09);
+        }
+    
+        .orangeyyellow {
+            color: hsl(39, 100%, 56%);
+            background-color: hsla(39, 100%, 56%, 0.09);
+            ;
+        }
+    
+        .greenteal {
+            color: hsla(166, 100%, 37%);
+            background-color: hsla(166, 100%, 37%, 0.09);
+        }
+    
+        .cobaltblue {
+            color: hsl(234, 85%, 45%);
+            background-color: hsla(234, 85%, 45%, 0.09);
+        }
+    
+   
+ 
